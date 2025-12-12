@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Suwahas Sathsara Aviator Signal PRO</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../bsdlQjQh3MZj.com/ajax/libs/font-awesome/2UJeB3PN6kQP.0/css/SKlKPli5Tl4L.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="circle c1"></div>
+    <div class="circle c2"></div>
+
+    <div id="noticeModal">
+        <div class="notice-content">
+            <div class="notice-title">Prakash Vidura Academy</div>
+            <div class="notice-text">
+                මෙම Aviator Signal Web App එක ගණිතමය උපකල්පණ ක්‍රමයකට සාදා ඇත. එම නිසා මෙම Web App එක Hack App එකක් නොවන බව කාරුණිකව සිතන්න.<br><br>
+                එම නිසා ඔබේ සම්පුර්ණ මුදල් භාවිතා කරමින් Bet කිරීමෙන් වළකින්න. අවම අගය රු.20 කින් Bet කරන්න.<br>
+                <span class="signature">Prakash Vidura Academy</span>
+            </div>
+            <button class="btn-notice" onclick="acceptNotice()">Ok ✅</button>
+        </div>
+    </div>
+
+    <div id="loginScreen" class="glass-card">
+        <h1>LOGIN</h1>
+        <div class="sub-title">SECURE ACCESS AREA</div>
+
+        <div class="input-box">
+            <label>EMAIL ADDRESS</label>
+            <input type="email" id="email" class="std-input" placeholder="Enter Email">
+        </div>
+
+        <div class="input-box">
+            <label>PASSWORD</label>
+            <input type="password" id="password" class="std-input" placeholder="Enter Password">
+        </div>
+
+        <button class="btn-analyze" id="loginBtn">CONFERM 🔓</button>
+        <div id="loginError"></div>
+
+        <div class="footer">Signal App Created By Prakash Vidura Academy✨</div>
+    </div>
+
+    <div id="mainApp" class="glass-card">
+        <h1>Prakash Academy</h1>
+        <div class="sub-title">PREDICTION ALGORITHM PRO</div>
+        
+        <div id="userExpiryDisplay" class="expiry-info">Checking validity...</div>
+
+        <div class="input-box">
+            <label>LAST BIG ODD (x)</label>
+            <input type="number" id="lastOdd" class="std-input" placeholder="Ex: 43.06" step="0.01">
+        </div>
+
+        <div class="input-box">
+            <label>SYSTEM TIME</label>
+            <div class="clock-wrapper">
+                <div class="clock-container">
+                    <input type="number" id="inputHour" class="clock-input" placeholder="02" oninput="checkInput(this, 'inputMinute')">
+                    <span class="clock-colon">:</span>
+                    <input type="number" id="inputMinute" class="clock-input" placeholder="30" oninput="checkInput(this, null)">
+                </div>
+                <div class="ampm-toggle">
+                    <button class="ampm-btn active" id="btnAM" onclick="setAMPM('AM')">AM</button>
+                    <button class="ampm-btn" id="btnPM" onclick="setAMPM('PM')">PM</button>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn-analyze" onclick="calculateSignal()">Generate Signal ⚡</button>
+
+        <div id="resultArea">
+            <div class="result-panel">
+                <div style="font-size: 10px; color: #aaa; letter-spacing: 1px;">TARGET TIME</div>
+                <div class="time-display" id="displaySignal">00:00 AM</div>
+            </div>
+
+            <div class="result-panel" style="border-color: #ffd700;">
+                <div style="font-size: 10px; color: #aaa; letter-spacing: 1px;">ACTIVE ZONE (4 MIN)</div>
+                <div class="zone-display">
+                    <span id="zoneStart">00:00</span> - <span id="zoneEnd">00:00</span>
+                </div>
+            </div>
+
+            <button class="btn-copy" onclick="manualCopy()" id="copyButton">
+                <i class="fa-regular fa-copy"></i> COPY SIGNAL
+            </button>
+        </div>
+
+        <div class="social-area">
+            <a href="https://www.youtube.com/@suwahas-sathsara-chandrasiri" target="_blank" class="social-btn yt">
+                <i class="fab fa-youtube"></i> Channel
+            </a>
+            <a href="https://chat.whatsapp.com/FSpAUoHvFSYLWKmfwwLBqC" target="_blank" class="social-btn wa">
+                <i class="fab fa-whatsapp"></i> Group
+            </a>
+        </div>
+
+        <button class="btn-logout" id="logoutBtn">LOGOUT 🔒</button>
+        <div class="footer">Signal App Powered by Suwahas Sathsara</div>
+    </div>
+
+    <script src="../q8g4JAdlYgLc.com/firebasejs/gx4Q5VfHe6k1.0/2Qgklcljv1Nd.js"></script>
+    <script src="../q8g4JAdlYgLc.com/firebasejs/gx4Q5VfHe6k1.0/qjPkopjklsV5.js"></script>
+    <script src="../q8g4JAdlYgLc.com/firebasejs/gx4Q5VfHe6k1.0/a9qaoHgA6Yyk.js"></script>
+
+    <script src="script.js"></script>
+
+
+</body></html>
